@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="assigned_to_tf" label="Default to this Assigned to on new incident" language="en" table="x_165574_sn_user_p_sn_user_preferences">
+    <sys_documentation element="assigned_to_tf" label="Default to this Assigned to" language="en" table="x_165574_sn_user_p_sn_user_preferences">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>assigned_to_tf</element>
             <help/>
             <hint/>
-            <label>Default to this Assigned to on new incident</label>
+            <label>Default to this Assigned to</label>
             <language>en</language>
             <name>x_165574_sn_user_p_sn_user_preferences</name>
-            <plural>Default to this Assigned to on new incidents</plural>
+            <plural>Default to this Assigned to</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin-eduque</sys_created_by>
             <sys_created_on>2018-02-19 22:53:27</sys_created_on>
             <sys_id>1379dd03db1813008531711ebf9619e0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Default to this Assigned to on new incident</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Default to this Assigned to</sys_name>
             <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
             <sys_policy/>
             <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
             <sys_update_name>sys_documentation_x_165574_sn_user_p_sn_user_preferences_assigned_to_tf_en</sys_update_name>
             <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-19 22:53:27</sys_updated_on>
+            <sys_updated_on>2018-02-20 16:48:40</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
