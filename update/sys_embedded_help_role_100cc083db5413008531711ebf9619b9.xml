@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_165574_sn_user_p.sn_user_preferences_user" name="x_165574_sn_user_p.sn_user_preferences_user">900cc083db5413008531711ebf9619b7</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin-eduque</sys_created_by>
+        <sys_created_on>2018-02-19 17:14:55</sys_created_on>
+        <sys_id>100cc083db5413008531711ebf9619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>900cc083db5413008531711ebf9619b7</sys_name>
+        <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
+        <sys_update_name>sys_embedded_help_role_100cc083db5413008531711ebf9619b9</sys_update_name>
+        <sys_updated_by>admin-eduque</sys_updated_by>
+        <sys_updated_on>2018-02-19 17:14:55</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

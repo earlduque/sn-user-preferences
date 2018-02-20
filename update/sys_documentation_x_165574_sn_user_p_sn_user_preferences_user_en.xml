@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="user" label="User" language="en" table="x_165574_sn_user_p_sn_user_preferences">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>user</element>
+            <help/>
+            <hint/>
+            <label>User</label>
+            <language>en</language>
+            <name>x_165574_sn_user_p_sn_user_preferences</name>
+            <plural>Users</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-19 17:14:56</sys_created_on>
+            <sys_id>7c0c0483db5413008531711ebf9619ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>User</sys_name>
+            <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
+            <sys_update_name>sys_documentation_x_165574_sn_user_p_sn_user_preferences_user_en</sys_update_name>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-19 17:14:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
