@@ -5,6 +5,8 @@
         <element label="Default to this Assigned to" max_length="40" name="assigned_to_tf" type="boolean"/>
         <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
         <element label="Default to this Assignment Group" max_length="40" name="assignment_group_tf" type="boolean"/>
+        <element label="Caller" max_length="32" name="caller_id" reference="sys_user" type="reference"/>
+        <element label="Default to this Caller" max_length="40" name="caller_id_tf" type="boolean"/>
         <element label="Configuration Item" max_length="32" name="cmdb_ci" reference="cmdb_ci" type="reference"/>
         <element label="Default to this Configuration Item" max_length="40" name="cmdb_ci_tf" type="boolean"/>
         <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="User" max_length="32" name="user" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
@@ -15,9 +17,12 @@
             <element name="cmdb_ci"/>
         </index>
         <index name="index3">
-            <element name="user"/>
+            <element name="caller_id"/>
         </index>
         <index name="index4">
+            <element name="user"/>
+        </index>
+        <index name="index5">
             <element name="assigned_to"/>
         </index>
     </element>
