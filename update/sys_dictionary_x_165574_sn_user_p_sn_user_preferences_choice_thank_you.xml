@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="has_thank_you" table="x_165574_sn_user_p_sn_user_preferences">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="choice_thank_you" table="x_165574_sn_user_p_sn_user_preferences">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Use a "Thank you for contacting us"  in your greeting</column_label>
+        <column_label>Who should be identified in the "Thank you" line</column_label>
         <comments/>
         <create_roles/>
-        <default_value>false</default_value>
+        <default_value>Group Name</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -23,10 +23,10 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>has_thank_you</element>
+        <element>choice_thank_you</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="">boolean</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_165574_sn_user_p_sn_user_preferences</name>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin-eduque</sys_created_by>
-        <sys_created_on>2018-02-20 19:27:43</sys_created_on>
-        <sys_id>97f3759fdb1053008531711ebf9619c5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Use a "Thank you for contacting us"  in your greeting</sys_name>
+        <sys_created_on>2018-02-20 22:07:51</sys_created_on>
+        <sys_id>c9a81a13db9053008531711ebf9619e2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Who should be identified in the "Thank you" line</sys_name>
         <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
-        <sys_update_name>sys_dictionary_x_165574_sn_user_p_sn_user_preferences_has_thank_you</sys_update_name>
+        <sys_update_name>sys_dictionary_x_165574_sn_user_p_sn_user_preferences_choice_thank_you</sys_update_name>
         <sys_updated_by>admin-eduque</sys_updated_by>
         <sys_updated_on>2018-02-20 22:07:51</sys_updated_on>
         <table_reference>false</table_reference>

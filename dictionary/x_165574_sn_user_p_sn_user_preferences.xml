@@ -7,10 +7,19 @@
         <element label="Default to this Assignment Group" max_length="40" name="assignment_group_tf" type="boolean"/>
         <element label="Caller" max_length="32" name="caller_id" reference="sys_user" type="reference"/>
         <element label="Default to this Caller" max_length="40" name="caller_id_tf" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Group Name" label="Who should be identified in the &quot;Thank you&quot; line" max_length="40" name="choice_thank_you" type="string">
+            <choice>
+                <element label="Group Name" sequence="0" value="Group Name"/>
+                <element label="Group Description" sequence="1" value="Group Description"/>
+                <element label="Us" sequence="2" value="Us"/>
+                <element label="Custom" sequence="3" value="Custom"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Custom Thank you name" max_length="40" name="choice_thank_you_custom" type="string"/>
         <element label="Configuration Item" max_length="32" name="cmdb_ci" reference="cmdb_ci" type="reference"/>
         <element label="Default to this Configuration Item" max_length="40" name="cmdb_ci_tf" type="boolean"/>
         <element label="Use an automated greeting" max_length="40" name="has_greeting" type="boolean"/>
-        <element label="Use a thank you in your greeting based on the assignment group's description" max_length="40" name="has_thank_you" type="boolean"/>
+        <element label="Use a &quot;Thank you for contacting us&quot;  in your greeting" max_length="40" name="has_thank_you" type="boolean"/>
         <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="User" max_length="32" name="user" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <index name="index">
             <element name="assignment_group"/>

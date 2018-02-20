@@ -50,12 +50,14 @@ u_getCustomPreferences.prototype = Object.extendsObject(global.AbstractAjaxProce
                 } else if (gr2.element == 'has_thank_you') {
                     if (gr.has_thank_you) {
                         results.greeting += 'Thank you for contacting ';
-                        if (gr.assignment_group.description && gr.assignment_group_tf) {
-                            results.greeting += gr.assignment_group.description + '.\n\n';
-                        } else if (!gr.assignment_group.description && gr.assignment_group_tf) {
+                        if (gr.choice_thank_you == 'Group Name') {
                             results.greeting += gr.assignment_group.name + '.\n\n';
-                        } else {
+                        } else if (gr.choice_thank_you == 'Group Description') {
+                            results.greeting += gr.assignment_group.description + '.\n\n';
+                        } else if (gr.choice_thank_you == 'Us') {
                             results.greeting += 'us.\n\n';
+                        } else {
+                            results.greeting += gr.choice_thank_you_custom;
                         }
                     }
                 } else {
@@ -75,13 +77,13 @@ u_getCustomPreferences.prototype = Object.extendsObject(global.AbstractAjaxProce
         <sys_created_by>admin-eduque</sys_created_by>
         <sys_created_on>2018-02-19 17:47:30</sys_created_on>
         <sys_id>fce09cc7db5413008531711ebf96195c</sys_id>
-        <sys_mod_count>43</sys_mod_count>
+        <sys_mod_count>45</sys_mod_count>
         <sys_name>u_getCustomPreferences</sys_name>
         <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
         <sys_update_name>sys_script_include_fce09cc7db5413008531711ebf96195c</sys_update_name>
         <sys_updated_by>admin-eduque</sys_updated_by>
-        <sys_updated_on>2018-02-20 21:56:34</sys_updated_on>
+        <sys_updated_on>2018-02-20 22:11:06</sys_updated_on>
     </sys_script_include>
 </record_update>
