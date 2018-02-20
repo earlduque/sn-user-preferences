@@ -5,41 +5,13 @@
             <element>user</element>
             <position>0</position>
             <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-20 16:30:43</sys_created_on>
-            <sys_id>667b4d17dbdc13008531711ebf961942</sys_id>
+            <sys_created_on>2018-02-20 16:36:19</sys_created_on>
+            <sys_id>a4cc8957dbdc13008531711ebf961973</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">a81c4843db5413008531711ebf96199f</sys_ui_section>
             <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-20 16:30:43</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>1</position>
-            <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-20 16:30:43</sys_created_on>
-            <sys_id>e67b4d17dbdc13008531711ebf961942</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">a81c4843db5413008531711ebf96199f</sys_ui_section>
-            <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-20 16:30:43</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>sys_updated_on</element>
-            <position>2</position>
-            <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-20 16:30:43</sys_created_on>
-            <sys_id>6a7b4d17dbdc13008531711ebf961942</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">a81c4843db5413008531711ebf96199f</sys_ui_section>
-            <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-20 16:30:43</sys_updated_on>
+            <sys_updated_on>2018-02-20 16:36:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
