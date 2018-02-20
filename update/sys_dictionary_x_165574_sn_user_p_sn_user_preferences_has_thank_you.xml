@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="caller_id_tf" table="x_165574_sn_user_p_sn_user_preferences">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="has_thank_you" table="x_165574_sn_user_p_sn_user_preferences">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -10,10 +10,10 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Default to this Caller</column_label>
+        <column_label>Use a thank you in your greeting based on the assignment group's description</column_label>
         <comments/>
         <create_roles/>
-        <default_value>false</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -23,7 +23,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>caller_id_tf</element>
+        <element>has_thank_you</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <internal_type display_value="">boolean</internal_type>
@@ -46,16 +46,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin-eduque</sys_created_by>
-        <sys_created_on>2018-02-20 18:37:54</sys_created_on>
-        <sys_id>e1986597db1053008531711ebf9619b1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Default to this Caller</sys_name>
+        <sys_created_on>2018-02-20 19:27:43</sys_created_on>
+        <sys_id>97f3759fdb1053008531711ebf9619c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Use a thank you in your greeting based on the assignment group's description</sys_name>
         <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
-        <sys_update_name>sys_dictionary_x_165574_sn_user_p_sn_user_preferences_caller_id_tf</sys_update_name>
+        <sys_update_name>sys_dictionary_x_165574_sn_user_p_sn_user_preferences_has_thank_you</sys_update_name>
         <sys_updated_by>admin-eduque</sys_updated_by>
-        <sys_updated_on>2018-02-20 19:08:12</sys_updated_on>
+        <sys_updated_on>2018-02-20 19:27:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

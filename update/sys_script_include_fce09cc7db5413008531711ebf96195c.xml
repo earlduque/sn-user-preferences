@@ -10,57 +10,78 @@
         <script><![CDATA[var u_getCustomPreferences = Class.create();
 
 u_getCustomPreferences.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
-	hasRecord: function () {
-		var results = {};
-		
-		//gs.info("cool1");
-		var userID = this.getParameter('sysparm_userID');
-		var gr = new GlideRecord('x_165574_sn_user_p_sn_user_preferences');
-		gr.addQuery('user', userID);
-		gr.query();
-		//gs.info("cool2 " + userID);
-		if (gr.next()) {
-			//gs.info("cool3 " + gr.u_default_assignment_group_tf);
-			results.hasRecord = true;
-			//results.u_default_assignment_group_tf = gr.u_default_assignment_group_tf.toString();
-			//gs.info("cool4 " + results.hasRecord + results.u_default_assignment_group_tf);	
-		} else {    
-			results.hasRecord = false;
-			//gs.info("cool4 " + results.hasRecord);
-		}
-		if (results.hasRecord == true) {
-			var i=0;
-			var gr2 = new GlideRecord('sys_dictionary');
-			gr2.addQuery('name', 'x_165574_sn_user_p_sn_user_preferences');
-			gr2.addQuery('element', 'DOES NOT CONTAIN', 'sys');
-			gr2.addQuery('element', 'DOES NOT CONTAIN', '_tf');
-			gr2.addQuery('element', '!=', 'user');
-			gr2.query();
-			while(gr2.next()) {
-				var fieldName = gr2.element;
-				var fieldNameTF = gr2.element + "_tf";
-				gs.info('fieldName = ' + fieldName + '. fieldnametf = ' + fieldNameTF + '. value = ' + gr.getValue(fieldNameTF));
-				if (gr.getValue(fieldNameTF)==1) results[gr2.element] = gr.getValue(fieldName);
-				//i=i+1;
-				//var fieldname = gr.element.toString();
-				//gs.info('Field ' + i + ': ' + gr.element);
-			}
-		}
-		results = new global.JSON().encode(results);
-		return results;
-	}
+    hasRecord: function () {
+        var results = {};
+        var userID = this.getParameter('sysparm_userID');
+
+        var gr = new GlideRecord('x_165574_sn_user_p_sn_user_preferences');
+        gr.addQuery('user', userID);
+        gr.query();
+
+        if (gr.next()) {
+            results.hasRecord = true;
+        } else {
+            results.hasRecord = false;
+        }
+
+        if (results.hasRecord == true) {
+            var gr2 = new GlideRecord('sys_dictionary');
+            gr2.addQuery('name', 'x_165574_sn_user_p_sn_user_preferences');
+            gr2.addQuery('element', 'DOES NOT CONTAIN', 'sys');
+            gr2.addQuery('element', 'DOES NOT CONTAIN', '_tf');
+            gr2.addQuery('element', '!=', 'user');
+            gr2.query();
+
+            results.greeting = "";
+
+            while (gr2.next()) {
+                if (gr2.element == 'has_greeting') {
+                    if (gr.has_greeting) {
+                        var today = new Date();
+                        var curHR = today.getUTCHours() - 8;
+                        if (curHR < 12) {
+                            results.greeting += 'Good morning,\n\n';
+                        } else if (curHR < 17) {
+                            results.greeting += 'Good afternoon,\n\n';
+                        } else {
+                            results.greeting += 'Good evening,\n\n';
+                        }
+                    }
+                } else if (gr2.element == 'has_thank_you') {
+                    if (gr.has_thank_you) {
+                        results.greeting += 'Thank you for contacting ';
+                        if (gr.assignment_group.description && gr.assignment_group_tf) {
+                            results.greeting += gr.assignment_group.description + '.\n\n';
+                        } else if (!gr.assignment_group.description && gr.assignment_group_tf) {
+                            results.greeting += gr.assignment_group.name + '.\n\n';
+                        } else {
+                            results.greeting += 'us.\n\n';
+                        }
+                    }
+                } else {
+                    var fieldName = gr2.element;
+                    var fieldNameTF = gr2.element + "_tf";
+                    //gs.info('fieldName = ' + fieldName + '. fieldnametf = ' + fieldNameTF + '. value = ' + gr.getValue(fieldNameTF));
+                    if (gr.getValue(fieldNameTF) == 1) results[gr2.element] = gr.getValue(fieldName);
+                }
+            }
+        }
+
+        results = new global.JSON().encode(results);
+        return results;
+    }
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin-eduque</sys_created_by>
         <sys_created_on>2018-02-19 17:47:30</sys_created_on>
         <sys_id>fce09cc7db5413008531711ebf96195c</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name>u_getCustomPreferences</sys_name>
         <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
         <sys_update_name>sys_script_include_fce09cc7db5413008531711ebf96195c</sys_update_name>
         <sys_updated_by>admin-eduque</sys_updated_by>
-        <sys_updated_on>2018-02-20 16:29:28</sys_updated_on>
+        <sys_updated_on>2018-02-20 21:56:34</sys_updated_on>
     </sys_script_include>
 </record_update>
