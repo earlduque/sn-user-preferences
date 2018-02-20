@@ -17,7 +17,7 @@
         <sys_updated_by>admin-eduque</sys_updated_by>
         <sys_updated_on>2018-02-20 19:00:13</sys_updated_on>
         <table>x_165574_sn_user_p_sn_user_preferences</table>
-        <ui_policy display_value="If no assignment group, then no assigned to">87ec619bdb1053008531711ebf961990</ui_policy>
+        <ui_policy display_value="If no assignment group">87ec619bdb1053008531711ebf961990</ui_policy>
         <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>
