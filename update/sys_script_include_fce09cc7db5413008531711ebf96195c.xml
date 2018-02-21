@@ -39,7 +39,9 @@ u_getCustomPreferences.prototype = Object.extendsObject(global.AbstractAjaxProce
                     if (gr.has_greeting) {
                         var callerName = '';
                         if (gr.has_caller_name && gr.caller_id_tf && gr.caller_id) {
-                            callerName = ' ' + gr.caller_id.first_name;
+                            var nameSpace = ' ';
+                            if (!gr.caller_id.first_name) nameSpace = '';
+                            callerName = nameSpace + gr.caller_id.first_name;
                         }
                         if (gr.choice_greeting == 'Good morning/afternoon/evening') {
                             var today = new Date();
@@ -111,7 +113,9 @@ u_getCustomPreferences.prototype = Object.extendsObject(global.AbstractAjaxProce
                     var newGR = new GlideRecord('sys_user');
                     newGR.get(newCaller);
 
-                    commentBody[0] = standardGreeting[i] + ' ' + newGR.first_name + ',';
+                    var nameSpace = ' ';
+                    if (!newGR.first_name) nameSpace = '';
+                    commentBody[0] = standardGreeting[i] + nameSpace + newGR.first_name + ',';
                     results.greeting = commentBody.join("\n");
                 }
             }
@@ -125,13 +129,13 @@ u_getCustomPreferences.prototype = Object.extendsObject(global.AbstractAjaxProce
         <sys_created_by>admin-eduque</sys_created_by>
         <sys_created_on>2018-02-19 17:47:30</sys_created_on>
         <sys_id>fce09cc7db5413008531711ebf96195c</sys_id>
-        <sys_mod_count>57</sys_mod_count>
+        <sys_mod_count>58</sys_mod_count>
         <sys_name>u_getCustomPreferences</sys_name>
         <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
         <sys_update_name>sys_script_include_fce09cc7db5413008531711ebf96195c</sys_update_name>
         <sys_updated_by>admin-eduque</sys_updated_by>
-        <sys_updated_on>2018-02-21 00:25:35</sys_updated_on>
+        <sys_updated_on>2018-02-21 18:51:32</sys_updated_on>
     </sys_script_include>
 </record_update>
