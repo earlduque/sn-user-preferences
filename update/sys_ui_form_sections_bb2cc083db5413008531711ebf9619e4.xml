@@ -18,16 +18,16 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-19 17:15:42</sys_created_on>
+            <sys_created_on>2018-02-21 19:05:34</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>7f2c8883db5413008531711ebf961906</sys_id>
+            <sys_id>b0883ee7db5013008531711ebf96194c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_165574_sn_user_p_sn_user_preferences" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">bb2cc083db5413008531711ebf9619e4</sys_ui_form>
-            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">ff2cc083db5413008531711ebf9619e3</sys_ui_section>
+            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
             <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-19 17:15:42</sys_updated_on>
+            <sys_updated_on>2018-02-21 19:05:34</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_165574_sn_user_p_sn_user_preferences</name>
