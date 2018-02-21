@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="SN User Preferences" max_length="40" name="x_165574_sn_user_p_sn_user_preferences" type="collection">
-        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element attributes="ref_contributions=select_ag_from_assigned_to_macro" dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element label="Default to this Assigned to" max_length="40" name="assigned_to_tf" type="boolean"/>
         <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
         <element label="Default to this Assignment Group" max_length="40" name="assignment_group_tf" type="boolean"/>
         <element label="Caller" max_length="32" name="caller_id" reference="sys_user" type="reference"/>
         <element label="Default to this Caller" max_length="40" name="caller_id_tf" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Good morning/afternoon/evening" label="Greeting type" max_length="40" name="choice_greeting" type="string">
+            <choice>
+                <element label="Good morning/afternoon/evening" sequence="0" value="Good morning/afternoon/evening"/>
+                <element label="Hello" sequence="1" value="Hello"/>
+                <element label="Custom" sequence="2" value="Custom"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Custom greeting" max_length="40" name="choice_greeting_custom" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Group Name" label="Who should be identified in the &quot;Thank you&quot; line" max_length="40" name="choice_thank_you" type="string">
             <choice>
                 <element label="Group Name" sequence="0" value="Group Name"/>
@@ -18,6 +26,7 @@
         <element attributes="edge_encryption_enabled=true" label="Custom Thank you name" max_length="40" name="choice_thank_you_custom" type="string"/>
         <element label="Configuration Item" max_length="32" name="cmdb_ci" reference="cmdb_ci" type="reference"/>
         <element label="Default to this Configuration Item" max_length="40" name="cmdb_ci_tf" type="boolean"/>
+        <element label="Include caller's name in greeting (if available)" max_length="40" name="has_caller_name" type="boolean"/>
         <element label="Use an automated greeting" max_length="40" name="has_greeting" type="boolean"/>
         <element label="Use a &quot;Thank you for contacting us&quot;  in your greeting" max_length="40" name="has_thank_you" type="boolean"/>
         <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="User" max_length="32" name="user" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
