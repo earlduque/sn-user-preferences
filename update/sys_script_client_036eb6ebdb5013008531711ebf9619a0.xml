@@ -5,19 +5,27 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>active</field>
+        <field>u_guest_name</field>
         <global>true</global>
         <messages/>
-        <name>Custom User Preferences oL</name>
+        <name>Custom User Preferences Guest Name oC</name>
         <order/>
-        <script><![CDATA[function onLoad() {
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
     if (g_form.isNewRecord()) {
         var ga = new GlideAjax('u_getCustomPreferences');
-        ga.addParam('sysparm_name', 'hasRecord');
+        ga.addParam('sysparm_name', 'hasRecordCallerOC');
         var userID = g_user.userID;
         ga.addParam('sysparm_userID', userID);
+        ga.addParam('sysparm_comment', g_form.getValue('comments'));
+        ga.addParam('sysparm_caller', g_form.getValue('caller_id'));
+        ga.addParam('sysparm_guest_name', g_form.getValue('u_guest_name'));
         ga.getXMLAnswer(hasCustomPreferences);
     }
+
 }
 
 function hasCustomPreferences(response) {
@@ -25,38 +33,26 @@ function hasCustomPreferences(response) {
     var results = JSON.parse(answer);
 
     if (results.hasRecord == true) {
-        if (results.assignment_group) {
-            g_form.setValue('assignment_group', results.assignment_group);
-            delete results.assignment_group;
-        }
-
-        var i = 0;
-        delete results.hasRecord;
-        var objectLength = Object.keys(results);
-        for (; i < objectLength.length; i++) {
-            g_form.setValue(String(Object.keys(results)[i]), String(Object.values(results)[i]));
-        }
-		
-		if (results.greeting) g_form.setValue('comments', results.greeting);
+        if (results.greeting) g_form.setValue('comments', results.greeting);
     }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin-eduque</sys_created_by>
-        <sys_created_on>2018-02-19 17:47:28</sys_created_on>
+        <sys_created_on>2018-02-21 19:31:58</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>9920d4c7db5413008531711ebf9619b2</sys_id>
-        <sys_mod_count>142</sys_mod_count>
-        <sys_name>Custom User Preferences oL</sys_name>
+        <sys_id>036eb6ebdb5013008531711ebf9619a0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Custom User Preferences Guest Name oC</sys_name>
         <sys_overrides/>
         <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
-        <sys_update_name>sys_script_client_9920d4c7db5413008531711ebf9619b2</sys_update_name>
+        <sys_update_name>sys_script_client_036eb6ebdb5013008531711ebf9619a0</sys_update_name>
         <sys_updated_by>admin-eduque</sys_updated_by>
-        <sys_updated_on>2018-02-21 19:19:07</sys_updated_on>
+        <sys_updated_on>2018-02-21 19:32:14</sys_updated_on>
         <table>incident</table>
-        <type>onLoad</type>
+        <type>onChange</type>
         <ui_type>10</ui_type>
         <view/>
     </sys_script_client>
