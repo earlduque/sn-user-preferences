@@ -10,35 +10,35 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>DIRECT</link_type>
+        <link_type>NEW</link_type>
         <map_page/>
         <mobile_title>SN User Preferences</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_165574_sn_user_p_sn_user_preferences</name>
-        <order>400</order>
+        <order>300</order>
         <override_menu_roles>false</override_menu_roles>
         <query>system_properties_ui.do?sysparm_title=Custom User Preferences%20Properties&amp;sysparm_category=Custom User Preferences</query>
         <report/>
-        <roles>admin,itil_admin</roles>
+        <roles/>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin-eduque</sys_created_by>
-        <sys_created_on>2018-02-21 00:40:47</sys_created_on>
+        <sys_created_on>2018-02-22 18:13:59</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>65ab7657dbd053008531711ebf9619ab</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Properties</sys_name>
+        <sys_id>f246fbbbdbd413008531711ebf9619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Initial Preferences</sys_name>
         <sys_overrides/>
         <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
-        <sys_update_name>sys_app_module_65ab7657dbd053008531711ebf9619ab</sys_update_name>
+        <sys_update_name>sys_app_module_f246fbbbdbd413008531711ebf9619aa</sys_update_name>
         <sys_updated_by>admin-eduque</sys_updated_by>
-        <sys_updated_on>2018-02-22 18:13:06</sys_updated_on>
+        <sys_updated_on>2018-02-22 18:13:59</sys_updated_on>
         <timeline_page/>
-        <title>Properties</title>
+        <title>Create Initial Preferences</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
