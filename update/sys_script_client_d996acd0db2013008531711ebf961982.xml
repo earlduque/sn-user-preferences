@@ -8,17 +8,20 @@
         <field>assigned_to</field>
         <global>true</global>
         <messages/>
-        <name>Hide disabled fields</name>
+        <name>Hide group restrictions</name>
         <order/>
         <script><![CDATA[function onLoad() {
+	if (!g_form.getValue('assignment_group')) return;
 	var ga = new GlideAjax('u_getCustomPreferences');
-	ga.addParam('sysparm_name', 'getDisabledFields');
+	ga.addParam('sysparm_name', 'getGroupRestrictions');
+	ga.addParam('sysparm_ass_group', g_form.getValue('assignment_group'));
 	ga.getXMLAnswer(disableFields);
 }
 
 function disableFields(response) {
     var answer = response;
     var results = JSON.parse(answer);
+	//alert (results.assigned_to + results.cmdb_ci + results.caller_id + results.has_greeting + results.has_thank_you);
 	
 	if (results.assignment_group == 'false'){
 		hide_assignment_group();
@@ -46,60 +49,54 @@ function disableFields(response) {
 	}
 }
 
-function hide_assignment_group() {
-	g_form.clearValue('assignment_group_tf');
-	g_form.setDisplay('assignment_group_tf', 'false');
-	g_form.setDisplay('assignment_group', 'false');
-}
-
 function hide_assigned_to() {
 	g_form.clearValue('assigned_to_tf');
-	g_form.setDisplay('assigned_to_tf', 'false');
-	g_form.setDisplay('assigned_to', 'false');
+	g_form.setReadOnly('assigned_to_tf', 'false');
+	g_form.setReadOnly('assigned_to', 'false');
 }
 
 function hide_cmdb_ci() {
 	g_form.clearValue('cmdb_ci_tf');
-	g_form.setDisplay('cmdb_ci', 'false');
-	g_form.setDisplay('cmdb_ci_tf', 'false');
+	g_form.setReadOnly('cmdb_ci', 'false');
+	g_form.setReadOnly('cmdb_ci_tf', 'false');
 }
 
 function hide_caller_id() {
 	g_form.clearValue('caller_id_tf');
-	g_form.setDisplay('caller_id_tf', 'false');
-	g_form.setDisplay('caller_id', 'false');
+	g_form.setReadOnly('caller_id_tf', 'false');
+	g_form.setReadOnly('caller_id', 'false');
 }
 
 function hide_greeting() {
 	g_form.clearValue('has_greeting');
 	g_form.clearValue('has_caller_name');
-	g_form.setDisplay('has_greeting', 'false');
-	g_form.setDisplay('has_caller_name', 'false');
-	g_form.setDisplay('choice_greeting', 'false');
-	g_form.setDisplay('choice_greeting_custom', 'false');
+	g_form.setReadOnly('has_greeting', 'false');
+	g_form.setReadOnly('has_caller_name', 'false');
+	g_form.setReadOnly('choice_greeting', 'false');
+	g_form.setReadOnly('choice_greeting_custom', 'false');
 }
 
 function hide_thank_you() {
 	g_form.clearValue('has_thank_you');
-	g_form.setDisplay('choice_thank_you', 'false');
-	g_form.setDisplay('choice_thank_you_custom', 'false');
-	g_form.setDisplay('has_thank_you', 'false');
+	g_form.setReadOnly('choice_thank_you', 'false');
+	g_form.setReadOnly('choice_thank_you_custom', 'false');
+	g_form.setReadOnly('has_thank_you', 'false');
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin-eduque</sys_created_by>
-        <sys_created_on>2018-02-22 18:24:10</sys_created_on>
+        <sys_created_on>2018-02-23 16:23:26</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>8568b7b3dbd813008531711ebf9619aa</sys_id>
-        <sys_mod_count>25</sys_mod_count>
-        <sys_name>Hide disabled fields</sys_name>
+        <sys_id>d996acd0db2013008531711ebf961982</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Hide group restrictions</sys_name>
         <sys_overrides/>
         <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
-        <sys_update_name>sys_script_client_8568b7b3dbd813008531711ebf9619aa</sys_update_name>
+        <sys_update_name>sys_script_client_d996acd0db2013008531711ebf961982</sys_update_name>
         <sys_updated_by>admin-eduque</sys_updated_by>
-        <sys_updated_on>2018-02-22 23:24:16</sys_updated_on>
+        <sys_updated_on>2018-02-23 16:29:58</sys_updated_on>
         <table>x_165574_sn_user_p_sn_user_preferences</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

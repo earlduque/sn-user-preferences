@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Custom User Preferences">6c0c0483db5413008531711ebf96196e</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Group Restrictions</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_165574_sn_user_p_group_restrictions</name>
+        <order>350</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>itil</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin-eduque</sys_created_by>
+        <sys_created_on>2018-02-22 23:31:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>88eef008db6c13008531711ebf961956</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Group Restrictions</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
+        <sys_update_name>sys_app_module_88eef008db6c13008531711ebf961956</sys_update_name>
+        <sys_updated_by>admin-eduque</sys_updated_by>
+        <sys_updated_on>2018-02-23 00:34:18</sys_updated_on>
+        <timeline_page/>
+        <title>Group Restrictions</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

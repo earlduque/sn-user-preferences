@@ -2,19 +2,19 @@
 <record_update table="sys_properties_category_m2m">
     <sys_properties_category_m2m action="INSERT_OR_UPDATE">
         <category display_value="Custom User Preferences">73473b73dbd813008531711ebf961964</category>
-        <order>300</order>
-        <property display_value="x_165574_sn_user_p.cmdb_ci" name="x_165574_sn_user_p.cmdb_ci">cbd6b37fdb9813008531711ebf961971</property>
+        <order>100</order>
+        <property display_value="x_165574_sn_user_p.assignment_group" name="x_165574_sn_user_p.assignment_group">d2473840db6c13008531711ebf9619df</property>
         <sys_class_name>sys_properties_category_m2m</sys_class_name>
         <sys_created_by>admin-eduque</sys_created_by>
-        <sys_created_on>2018-02-22 18:18:49</sys_created_on>
-        <sys_id>f5677773dbd813008531711ebf96194d</sys_id>
+        <sys_created_on>2018-02-22 23:02:17</sys_created_on>
+        <sys_id>0e48f8c0db6c13008531711ebf961938</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>x_165574_sn_user_p.cmdb_ci.Custom User Preferences</sys_name>
+        <sys_name>x_165574_sn_user_p.assignment_group.Custom User Preferences</sys_name>
         <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
-        <sys_update_name>sys_properties_category_m2m_f5677773dbd813008531711ebf96194d</sys_update_name>
+        <sys_update_name>sys_properties_category_m2m_0e48f8c0db6c13008531711ebf961938</sys_update_name>
         <sys_updated_by>admin-eduque</sys_updated_by>
-        <sys_updated_on>2018-02-22 23:02:38</sys_updated_on>
+        <sys_updated_on>2018-02-22 23:02:30</sys_updated_on>
     </sys_properties_category_m2m>
 </record_update>

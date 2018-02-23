@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <content><![CDATA[    <h1 class="title topictitle1">Add or modify a role</h1>        <div class="body taskbody">        <ol class="ol steps"><li class="li step">                <span class="ph cmd">Complete the form or update the fields.</span>            </li><li class="li step">                <span class="ph cmd">In the <span class="ph uicontrol">Contains Roles</span> related list, add or remove roles                    that this role contains.</span>            </li><li class="li step">                <span class="ph cmd">Click <span class="ph uicontrol">Submit</span> or <span class="ph uicontrol">Update</span>.</span>            </li></ol>    </div>]]></content>
+        <last_sync>2018-02-23 00:18:08</last_sync>
+        <modifier>normal</modifier>
+        <name>sys_user_role-normal</name>
+        <page>sys_user_role</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-02-23 00:18:08</sys_created_on>
+        <sys_id>9da98140dbac13008531711ebf9619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user_role-normal</sys_name>
+        <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
+        <sys_update_name>sys_embedded_help_content_9da98140dbac13008531711ebf9619ae</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-02-23 00:18:08</sys_updated_on>
+        <version>j</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=9da98140dbac13008531711ebf9619ae"/>
+</record_update>
