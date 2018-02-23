@@ -23,15 +23,6 @@ function disableFields(response) {
     var results = JSON.parse(answer);
 	//alert (results.assigned_to + results.cmdb_ci + results.caller_id + results.has_greeting + results.has_thank_you);
 	
-	if (results.assignment_group == 'false'){
-		hide_assignment_group();
-		hide_assigned_to();
-	}
-	
-	if (results.assigned_to == 'false'){
-		hide_assigned_to();
-	}
-	
 	if (results.cmdb_ci == 'false') {
 		hide_cmdb_ci();
 	}
@@ -47,12 +38,6 @@ function disableFields(response) {
 	if (results.has_thank_you == 'false') {
 		hide_thank_you();
 	}
-}
-
-function hide_assigned_to() {
-	g_form.clearValue('assigned_to_tf');
-	g_form.setReadOnly('assigned_to_tf', 'false');
-	g_form.setReadOnly('assigned_to', 'false');
 }
 
 function hide_cmdb_ci() {
@@ -88,7 +73,7 @@ function hide_thank_you() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d996acd0db2013008531711ebf961982</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Hide group restrictions</sys_name>
         <sys_overrides/>
         <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
@@ -96,7 +81,7 @@ function hide_thank_you() {
         <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
         <sys_update_name>sys_script_client_d996acd0db2013008531711ebf961982</sys_update_name>
         <sys_updated_by>admin-eduque</sys_updated_by>
-        <sys_updated_on>2018-02-23 16:29:58</sys_updated_on>
+        <sys_updated_on>2018-02-23 18:45:57</sys_updated_on>
         <table>x_165574_sn_user_p_sn_user_preferences</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

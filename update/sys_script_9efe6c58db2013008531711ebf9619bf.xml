@@ -35,7 +35,6 @@
 	newGR.addQuery('assignment_group', current.group);
 	newGR.query();
 	while (newGR.next()){
-		if (!current.assigned_to) newGR.assigned_to_tf = false;
 		if (!current.cmdb_ci) newGR.cmdb_ci_tf = false;
 		if (!current.caller_id) newGR.caller_id_tf = false;
 		if (!current.has_greeting) newGR.has_greeting = false;
@@ -51,7 +50,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9efe6c58db2013008531711ebf9619bf</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Push group restrictions</sys_name>
         <sys_overrides/>
         <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
@@ -59,7 +58,7 @@
         <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
         <sys_update_name>sys_script_9efe6c58db2013008531711ebf9619bf</sys_update_name>
         <sys_updated_by>admin-eduque</sys_updated_by>
-        <sys_updated_on>2018-02-23 17:14:19</sys_updated_on>
+        <sys_updated_on>2018-02-23 18:44:19</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
