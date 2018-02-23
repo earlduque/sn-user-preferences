@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="a545cdc8db6c13008531711ebf96190a" sys_domain="global" table="x_165574_sn_user_p_group_restrictions" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-22 23:59:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f945cdc8db6c13008531711ebf96190c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_165574_sn_user_p_group_restrictions" name="x_165574_sn_user_p_group_restrictions" sys_domain="global" view="Default view">a545cdc8db6c13008531711ebf96190a</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_165574_sn_user_p_group_restrictions" sys_domain="global" view="Default view">5afe3408db6c13008531711ebf9619fc</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-22 23:59:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-22 23:59:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f545cdc8db6c13008531711ebf96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_165574_sn_user_p_group_restrictions" name="x_165574_sn_user_p_group_restrictions" sys_domain="global" view="Default view">a545cdc8db6c13008531711ebf96190a</sys_ui_form>
+            <sys_ui_section caption="Allowed fields on Incident" display_value="Allowed fields on Incident" name="x_165574_sn_user_p_group_restrictions" sys_domain="global" view="Default view">e945cdc8db6c13008531711ebf961909</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-22 23:59:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_165574_sn_user_p_group_restrictions</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-22 23:59:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a545cdc8db6c13008531711ebf96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_165574_sn_user_p_group_restrictions</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
+            <sys_update_name>sys_ui_form_sections_a545cdc8db6c13008531711ebf96190a</sys_update_name>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-22 23:59:03</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

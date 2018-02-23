@@ -4,25 +4,28 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>9cc8322bdb5013008531711ebf961929</sys_id>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>bb1eb8c4db6c13008531711ebf961954</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
-            <text>The fields below are for the Incident table. Specifically for "Create new" incidents only (not for already created incidents).</text>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
+            <text>The below settings define the default values for incident records created by you as a technician.
+
+These default values are only applied to new incidents (ie. "Create new").
+Incident templates takes precedence and will overwrite any field in the template upon the template being applied.</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>9cc8322bdb5013008531711ebf961929</element>
+            <element>bb1eb8c4db6c13008531711ebf961954</element>
             <position>0</position>
             <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>50c8322bdb5013008531711ebf96192a</sys_id>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>7f1eb8c4db6c13008531711ebf961954</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
             <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -30,13 +33,13 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>d0c8322bdb5013008531711ebf96192a</sys_id>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>ff1eb8c4db6c13008531711ebf961954</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
             <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -44,307 +47,433 @@
             <element>assignment_group_tf</element>
             <position>2</position>
             <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>54c8322bdb5013008531711ebf96192a</sys_id>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>731eb8c4db6c13008531711ebf961955</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
             <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assigned_to_tf</element>
-            <position>3</position>
-            <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>d4c8322bdb5013008531711ebf96192a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
-            <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cmdb_ci_tf</element>
-            <position>4</position>
-            <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>58c8322bdb5013008531711ebf96192a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
-            <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>caller_id_tf</element>
-            <position>5</position>
-            <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>d8c8322bdb5013008531711ebf96192a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
-            <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>has_greeting</element>
-            <position>6</position>
-            <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>5cc8322bdb5013008531711ebf96192a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
-            <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>7</position>
+            <position>3</position>
             <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>dcc8322bdb5013008531711ebf96192a</sys_id>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>f31eb8c4db6c13008531711ebf961955</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
             <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assignment_group</element>
-            <position>8</position>
+            <position>4</position>
             <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>50c8322bdb5013008531711ebf96192b</sys_id>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>771eb8c4db6c13008531711ebf961955</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
             <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>f71eb8c4db6c13008531711ebf961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>6</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>7b1eb8c4db6c13008531711ebf961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to_tf</element>
+            <position>7</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>fb1eb8c4db6c13008531711ebf961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>7f1eb8c4db6c13008531711ebf961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
             <position>9</position>
             <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>d0c8322bdb5013008531711ebf96192b</sys_id>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>ff1eb8c4db6c13008531711ebf961955</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
             <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>731eb8c4db6c13008531711ebf961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>11</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>f31eb8c4db6c13008531711ebf961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ci_tf</element>
+            <position>12</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>771eb8c4db6c13008531711ebf961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>13</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>f71eb8c4db6c13008531711ebf961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>cmdb_ci</element>
-            <position>10</position>
+            <position>14</position>
             <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>54c8322bdb5013008531711ebf96192b</sys_id>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>7b1eb8c4db6c13008531711ebf961956</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
             <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>15</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>fb1eb8c4db6c13008531711ebf961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>16</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>7f1eb8c4db6c13008531711ebf961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>caller_id_tf</element>
+            <position>17</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>ff1eb8c4db6c13008531711ebf961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>18</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>731eb8c4db6c13008531711ebf961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>caller_id</element>
-            <position>11</position>
+            <position>19</position>
             <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>d4c8322bdb5013008531711ebf96192b</sys_id>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>f31eb8c4db6c13008531711ebf961957</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
             <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>choice_greeting</element>
-            <position>12</position>
+            <element>.end_split</element>
+            <position>20</position>
             <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>58c8322bdb5013008531711ebf96192b</sys_id>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>771eb8c4db6c13008531711ebf961957</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
             <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>21</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>f71eb8c4db6c13008531711ebf961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_greeting</element>
+            <position>22</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>7b1eb8c4db6c13008531711ebf961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_caller_name</element>
+            <position>23</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>fb1eb8c4db6c13008531711ebf961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>24</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>7f1eb8c4db6c13008531711ebf961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>choice_greeting</element>
+            <position>25</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>ff1eb8c4db6c13008531711ebf961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>choice_greeting_custom</element>
-            <position>13</position>
+            <position>26</position>
             <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>d8c8322bdb5013008531711ebf96192b</sys_id>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>731eb8c4db6c13008531711ebf961958</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
             <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>14</position>
+            <position>27</position>
             <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>5cc8322bdb5013008531711ebf96192b</sys_id>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>f31eb8c4db6c13008531711ebf961958</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
             <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
-            <position>15</position>
+            <position>28</position>
             <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>dcc8322bdb5013008531711ebf96192b</sys_id>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>771eb8c4db6c13008531711ebf961958</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
             <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>has_caller_name</element>
-            <position>16</position>
-            <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>50c8322bdb5013008531711ebf96192c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
-            <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>17</position>
-            <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>d0c8322bdb5013008531711ebf96192c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
-            <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>18</position>
-            <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>54c8322bdb5013008531711ebf96192c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
-            <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
-            <position>19</position>
-            <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>d4c8322bdb5013008531711ebf96192c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
-            <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>has_thank_you</element>
-            <position>20</position>
+            <position>29</position>
             <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>58c8322bdb5013008531711ebf96192c</sys_id>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>f71eb8c4db6c13008531711ebf961958</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
             <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>21</position>
+            <position>30</position>
             <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>d8c8322bdb5013008531711ebf96192c</sys_id>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>7b1eb8c4db6c13008531711ebf961958</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
             <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>choice_thank_you</element>
-            <position>22</position>
+            <position>31</position>
             <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>5cc8322bdb5013008531711ebf96192c</sys_id>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>fb1eb8c4db6c13008531711ebf961958</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
             <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>choice_thank_you_custom</element>
-            <position>23</position>
+            <position>32</position>
             <sys_created_by>admin-eduque</sys_created_by>
-            <sys_created_on>2018-02-21 19:06:37</sys_created_on>
-            <sys_id>dcc8322bdb5013008531711ebf96192c</sys_id>
+            <sys_created_on>2018-02-22 23:27:48</sys_created_on>
+            <sys_id>7f1eb8c4db6c13008531711ebf961958</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Incidents" display_value="New Incidents" name="x_165574_sn_user_p_sn_user_preferences" sys_domain="global" view="Default view">6888bae7db5013008531711ebf9619b4</sys_ui_section>
             <sys_updated_by>admin-eduque</sys_updated_by>
-            <sys_updated_on>2018-02-21 19:06:37</sys_updated_on>
+            <sys_updated_on>2018-02-22 23:27:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Allowed fields on Incident" section_id="e945cdc8db6c13008531711ebf961909" sys_domain="global" table="x_165574_sn_user_p_group_restrictions" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>0</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-23 16:28:09</sys_created_on>
+            <sys_id>e6a7e094db2013008531711ebf96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Allowed fields on Incident" display_value="Allowed fields on Incident" name="x_165574_sn_user_p_group_restrictions" sys_domain="global" view="Default view">e945cdc8db6c13008531711ebf961909</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-23 16:28:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ci</element>
+            <position>1</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-23 16:28:09</sys_created_on>
+            <sys_id>aea7e094db2013008531711ebf96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Allowed fields on Incident" display_value="Allowed fields on Incident" name="x_165574_sn_user_p_group_restrictions" sys_domain="global" view="Default view">e945cdc8db6c13008531711ebf961909</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-23 16:28:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>caller_id</element>
+            <position>2</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-23 16:28:09</sys_created_on>
+            <sys_id>22a7e094db2013008531711ebf96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Allowed fields on Incident" display_value="Allowed fields on Incident" name="x_165574_sn_user_p_group_restrictions" sys_domain="global" view="Default view">e945cdc8db6c13008531711ebf961909</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-23 16:28:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_greeting</element>
+            <position>3</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-23 16:28:09</sys_created_on>
+            <sys_id>a2a7e094db2013008531711ebf96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Allowed fields on Incident" display_value="Allowed fields on Incident" name="x_165574_sn_user_p_group_restrictions" sys_domain="global" view="Default view">e945cdc8db6c13008531711ebf961909</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-23 16:28:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_thank_you</element>
+            <position>4</position>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-23 16:28:09</sys_created_on>
+            <sys_id>26a7e094db2013008531711ebf96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Allowed fields on Incident" display_value="Allowed fields on Incident" name="x_165574_sn_user_p_group_restrictions" sys_domain="global" view="Default view">e945cdc8db6c13008531711ebf961909</sys_ui_section>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-23 16:28:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Allowed fields on Incident</caption>
+            <header>false</header>
+            <name>x_165574_sn_user_p_group_restrictions</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin-eduque</sys_created_by>
+            <sys_created_on>2018-02-22 23:59:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e945cdc8db6c13008531711ebf961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Allowed fields on Incident</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
+            <sys_update_name>sys_ui_section_e945cdc8db6c13008531711ebf961909</sys_update_name>
+            <sys_updated_by>admin-eduque</sys_updated_by>
+            <sys_updated_on>2018-02-22 23:59:03</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

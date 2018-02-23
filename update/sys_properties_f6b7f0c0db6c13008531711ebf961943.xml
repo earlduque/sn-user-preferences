@@ -2,27 +2,27 @@
 <record_update table="sys_properties">
     <sys_properties action="INSERT_OR_UPDATE">
         <choices/>
-        <description>Allow users to select a default value for cmdb_ci</description>
+        <description>Allow users to select an automated greeting in the comments</description>
         <ignore_cache>false</ignore_cache>
         <is_private>false</is_private>
-        <name>x_165574_sn_user_p.cmdb_ci</name>
+        <name>x_165574_sn_user_p.has_greeting</name>
         <read_roles/>
-        <suffix>cmdb_ci</suffix>
+        <suffix>has_greeting</suffix>
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>admin-eduque</sys_created_by>
-        <sys_created_on>2018-02-22 18:17:37</sys_created_on>
-        <sys_id>cbd6b37fdb9813008531711ebf961971</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>x_165574_sn_user_p.cmdb_ci</sys_name>
+        <sys_created_on>2018-02-22 22:59:53</sys_created_on>
+        <sys_id>f6b7f0c0db6c13008531711ebf961943</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_165574_sn_user_p.has_greeting</sys_name>
         <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
-        <sys_update_name>sys_properties_cbd6b37fdb9813008531711ebf961971</sys_update_name>
+        <sys_update_name>sys_properties_f6b7f0c0db6c13008531711ebf961943</sys_update_name>
         <sys_updated_by>admin-eduque</sys_updated_by>
         <sys_updated_on>2018-02-22 23:24:29</sys_updated_on>
         <type>boolean</type>
         <value>true</value>
         <write_roles>admin</write_roles>
     </sys_properties>
-    <sys_translated_text action="delete_multiple" query="documentkey=cbd6b37fdb9813008531711ebf961971"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=f6b7f0c0db6c13008531711ebf961943"/>
 </record_update>
