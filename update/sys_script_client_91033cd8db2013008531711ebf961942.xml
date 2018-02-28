@@ -11,11 +11,16 @@
         <name>Hide new group restrictions</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-    if (isLoading || newValue === '') {
+    if (isLoading) {
         return;
     }
 
-    if (!g_form.getValue('assignment_group')) return;
+    if (!g_form.getValue('assignment_group')) {
+		g_form.setReadOnly('cmdb_ci_tf', 'false');
+		g_form.setReadOnly('caller_id_tf', 'false');
+		g_form.setReadOnly('has_greeting', 'false');
+		g_form.setReadOnly('has_thank_you', 'false');
+	}
     var ga = new GlideAjax('u_getCustomPreferences');
     ga.addParam('sysparm_name', 'getGroupRestrictions');
     ga.addParam('sysparm_ass_group', g_form.getValue('assignment_group'));
@@ -48,14 +53,14 @@ function hide_cmdb_ci(value) {
 	var x = convertString(value);
     if (value == 'false') g_form.clearValue('cmdb_ci_tf');
     g_form.setReadOnly('cmdb_ci_tf', !x);
-	g_form.setReadOnly('cmdb_ci', !x);
+	//g_form.setReadOnly('cmdb_ci', !x);
 }
 
 function hide_caller_id(value) {
 	var x = convertString(value);
     if (value == 'false') g_form.clearValue('caller_id_tf');
     g_form.setReadOnly('caller_id_tf', !x);
-    g_form.setReadOnly('caller_id', !x);
+    //g_form.setReadOnly('caller_id', !x);
 }
 
 function hide_greeting(value) {
@@ -64,15 +69,15 @@ function hide_greeting(value) {
     g_form.clearValue('has_caller_name');
     g_form.setReadOnly('has_greeting', !x);
     g_form.setReadOnly('has_caller_name', !x);
-    g_form.setReadOnly('choice_greeting', !x);
-    g_form.setReadOnly('choice_greeting_custom', !x);
+    //g_form.setReadOnly('choice_greeting', !x);
+    //g_form.setReadOnly('choice_greeting_custom', !x);
 }
 
 function hide_thank_you(value) {
 	var x = convertString(value);
     if (value == 'false') g_form.clearValue('has_thank_you');
-    g_form.setReadOnly('choice_thank_you', !x);
-    g_form.setReadOnly('choice_thank_you_custom', !x);
+    //g_form.setReadOnly('choice_thank_you', !x);
+    //g_form.setReadOnly('choice_thank_you_custom', !x);
     g_form.setReadOnly('has_thank_you', !x);
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -81,7 +86,7 @@ function hide_thank_you(value) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>91033cd8db2013008531711ebf961942</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Hide new group restrictions</sys_name>
         <sys_overrides/>
         <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
@@ -89,7 +94,7 @@ function hide_thank_you(value) {
         <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
         <sys_update_name>sys_script_client_91033cd8db2013008531711ebf961942</sys_update_name>
         <sys_updated_by>admin-eduque</sys_updated_by>
-        <sys_updated_on>2018-02-23 18:45:14</sys_updated_on>
+        <sys_updated_on>2018-02-28 19:46:24</sys_updated_on>
         <table>x_165574_sn_user_p_sn_user_preferences</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

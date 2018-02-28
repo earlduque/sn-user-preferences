@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
-        <disabled>false</disabled>
-        <field>assigned_to</field>
-        <mandatory>true</mandatory>
+        <disabled>true</disabled>
+        <field>choice_thank_you</field>
+        <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin-eduque</sys_created_by>
-        <sys_created_on>2018-02-21 00:49:34</sys_created_on>
-        <sys_id>58ad36d7dbd053008531711ebf9619ba</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>assigned_to</sys_name>
+        <sys_created_on>2018-02-28 19:25:04</sys_created_on>
+        <sys_id>7300cfb5db6013008531711ebf9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>choice_thank_you</sys_name>
         <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
-        <sys_update_name>sys_ui_policy_action_58ad36d7dbd053008531711ebf9619ba</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_7300cfb5db6013008531711ebf9619a8</sys_update_name>
         <sys_updated_by>admin-eduque</sys_updated_by>
-        <sys_updated_on>2018-02-28 19:23:02</sys_updated_on>
+        <sys_updated_on>2018-02-28 19:25:04</sys_updated_on>
         <table>x_165574_sn_user_p_sn_user_preferences</table>
-        <ui_policy display_value="If assigned to true">9f8db2d7dbd053008531711ebf96196a</ui_policy>
+        <ui_policy display_value="If no thank you">dfffbeb5db6013008531711ebf9619e3</ui_policy>
         <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>

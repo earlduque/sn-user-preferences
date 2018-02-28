@@ -47,7 +47,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin-eduque</sys_created_by>
         <sys_created_on>2018-02-19 22:53:27</sys_created_on>
-        <sys_id>702d7490db6013008531711ebf9619d9</sys_id>
+        <sys_id>81bcfe71db6013008531711ebf961980</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Default to this Assigned to</sys_name>
         <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
@@ -55,7 +55,7 @@
         <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
         <sys_update_name>sys_dictionary_x_165574_sn_user_p_sn_user_preferences_assigned_to_tf</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-02-23 18:02:01</sys_updated_on>
+        <sys_updated_on>2018-02-28 19:10:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
