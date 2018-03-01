@@ -7,11 +7,13 @@
         <sys_class_name>sys_properties_category_m2m</sys_class_name>
         <sys_created_by>admin-eduque</sys_created_by>
         <sys_created_on>2018-02-22 23:02:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>0648f8c0db6c13008531711ebf96193a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_165574_sn_user_p.caller_id.Custom User Preferences</sys_name>
         <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
         <sys_update_name>sys_properties_category_m2m_0648f8c0db6c13008531711ebf96193a</sys_update_name>
         <sys_updated_by>admin-eduque</sys_updated_by>

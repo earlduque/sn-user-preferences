@@ -6,12 +6,12 @@
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
+        <calculation>(function calculatedFieldValue(current) {
 
 	// Add your code here
 	return '';  // return the calculated value
 
-})(current);]]></calculation>
+})(current);</calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
@@ -52,15 +52,17 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin-eduque</sys_created_by>
         <sys_created_on>2018-02-19 17:14:56</sys_created_on>
-        <sys_id>c1bcfe71db6013008531711ebf96197c</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>39c7e01a0f68df00e760807be1050e7f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_165574_sn_user_p_sn_user_preferences</sys_name>
         <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
         <sys_update_name>sys_dictionary_x_165574_sn_user_p_sn_user_preferences_NULL</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-02-28 19:10:17</sys_updated_on>
+        <sys_updated_on>2018-03-01 21:36:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -4,17 +4,19 @@
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>admin-eduque</sys_created_by>
         <sys_created_on>2018-02-23 00:11:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>9228418cdb6c13008531711ebf9619cb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_165574_sn_user_p_group_restrictions.itil</sys_name>
         <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
         <sys_security_acl display_value="x_165574_sn_user_p_group_restrictions">00eef008db6c13008531711ebf96195c</sys_security_acl>
         <sys_update_name>sys_security_acl_role_9228418cdb6c13008531711ebf9619cb</sys_update_name>
         <sys_updated_by>admin-eduque</sys_updated_by>
         <sys_updated_on>2018-02-23 00:11:49</sys_updated_on>
-        <sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role>
+        <sys_user_role display_value="itil" name="itil">0f525271dc323000e0b25f936628a774</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>

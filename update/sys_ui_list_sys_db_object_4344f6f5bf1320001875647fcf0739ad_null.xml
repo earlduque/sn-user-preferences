@@ -14,18 +14,19 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin-eduque</sys_created_by>
             <sys_created_on>2018-02-23 18:43:17</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>7d96451cdb6013008531711ebf96191e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>sys_dictionary</sys_name>
             <sys_package display_value="SN User Preferences" source="x_165574_sn_user_p">941ab532db1013008531711ebf9619cc</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="SN User Preferences">941ab532db1013008531711ebf9619cc</sys_scope>
             <sys_update_name>sys_ui_list_sys_db_object_4344f6f5bf1320001875647fcf0739ad_null</sys_update_name>
             <sys_updated_by>admin-eduque</sys_updated_by>
             <sys_updated_on>2018-02-23 18:43:17</sys_updated_on>
-            <sys_user display_value="Earl Duque">017e8184db3303008531711ebf9619b9</sys_user>
+            <sys_user display_value="Earl Duque">c93fddf94ff7b2c006a6650f0310c7ec</sys_user>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>
