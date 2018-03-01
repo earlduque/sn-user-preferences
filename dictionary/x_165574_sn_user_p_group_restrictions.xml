@@ -3,7 +3,7 @@
     <element label="Group Restrictions" max_length="40" name="x_165574_sn_user_p_group_restrictions" type="collection">
         <element default="true" label="Can set a default Caller" max_length="40" name="caller_id" type="boolean"/>
         <element default="true" label="Can set a default Configuration item" max_length="40" name="cmdb_ci" type="boolean"/>
-        <element label="Group I manage" mandatory="true" max_length="32" name="group" reference="sys_user_group" reference_qual="javascript:new u_CustomPreferencesGroupQualifier().getGroups();" type="reference" use_reference_qualifier="advanced"/>
+        <element display="true" label="Group I manage" mandatory="true" max_length="32" name="group" reference="sys_user_group" reference_qual="javascript:new u_CustomPreferencesGroupQualifier().getGroups();" type="reference" use_reference_qualifier="advanced"/>
         <element default="true" label="Can set an automatic greeting" max_length="40" name="has_greeting" type="boolean"/>
         <element default="true" label="Can set an automatic thank you line" max_length="40" name="has_thank_you" type="boolean"/>
         <index name="index">

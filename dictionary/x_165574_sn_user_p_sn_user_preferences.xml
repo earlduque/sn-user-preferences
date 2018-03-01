@@ -29,7 +29,7 @@
         <element label="Include caller's name in greeting (if available)" max_length="40" name="has_caller_name" type="boolean"/>
         <element label="Use an automated greeting" max_length="40" name="has_greeting" type="boolean"/>
         <element label="Use a &quot;Thank you for contacting us&quot;  in your greeting" max_length="40" name="has_thank_you" type="boolean"/>
-        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="User" max_length="32" name="user" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element default="javascript:gs.getUserID()" display="true" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="User" max_length="32" name="user" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <index name="index">
             <element name="assignment_group"/>
         </index>
